@@ -170,6 +170,7 @@ color:rgb(133, 131, 131);
 } 
 .popup {
     display: flex;
+    flex-direction: column;
     position: fixed;
     z-index: 1100;
     top: 0;
@@ -194,33 +195,36 @@ color:rgb(133, 131, 131);
      border-radius: 10px; 
      opacity:1;
      margin: auto; 
-     padding:20px;
+     padding:1em;
      align-items: center;
      border:1px solid rgb(250, 103, 77);
 }
 
 .add-text{
     font-family: 'Martel Sans', sans-serif;
-    font-size: 20px;
+    font-size: 1.5em;
     color: rgb(241, 68, 45);
 }
 
 .popup-textbox input{
- height:30px;
+ height:3em;
  width:90%;
 border-radius:5px;
  border:1px solid rgb(250, 103, 77);
  box-shadow: 3px 3px 10px #cccbcb;
+margin:2em 0 2em 0;
 }
+
 
 .popup-button input{
     border-radius:13px;
-    height:30px;
-    width:20%;
+    height:35px;
+    width:30%;
     background-color: rgb(252, 65, 32);
     color:rgba(229, 230, 233, 0.8);
     font-size: 15px;
     border:none;
+    margin-bottom:2em;
 
 }
 
@@ -270,23 +274,26 @@ border-radius:5px;
         left:10em;
     }
     /* .popup{  position:relative;   } */
+    .add-text{font-size:0.7em;}
     .add_popup{
-        height:5em;
-        width:10em;
+        height:100px;
+        width:auto;
         font-size:1.5em;
     }
     .popup-textbox input{
-        width:80%;   
+        width:80%;  
+        height:2em; 
+        margin:1em;
 
     }
     .popup-button input{       
-        height:2em;
-        width:30%;
-        background-color: rgb(252, 65, 32);
-        color:rgba(229, 230, 233, 0.8);
-        font-size: 15px;
+        height:2.2em;
+        width:32%;       
+        font-size: 12px;
         border:none;
-        margin-top:2em;    
+        margin-bottom: 2em;
+        border-radius: 11px;
+           
     }
     .navigator{
         font-size:0.5em;
